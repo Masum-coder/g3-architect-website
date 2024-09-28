@@ -95,7 +95,7 @@ main{
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
 }
-.teams-content{
+.teams-content, .facts-class-container{
     padding-right: 20px;
     padding-left: 20px;
 }
@@ -145,6 +145,32 @@ padding: 30px;
     margin-bottom: 10px;
 }
 
+.facts-class-container{
+    gap: 20px;
+}
+
+/* sponsors styles */
+.sponsors{
+    text-align: center;
+    font-size: 2.8rem;
+
+}
+.sponsors-img-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.sponsors-img-container img{
+    width: 165px;
+}
+
+.min{
+    text-align: center;
+}
+
 
 
 /* responsive media queries */
@@ -153,7 +179,10 @@ padding: 30px;
     header{
         padding: 20px;
     }
-    nav{
+    nav,
+    .teams-container,
+    .facts-class-container,
+    .sponsors-img-container{
         flex-direction: column;
     }
 }
@@ -163,7 +192,9 @@ padding: 30px;
     header{
         padding: 20px;
     }
-    nav{
+    nav,
+    .sponsors-img-container,
+    .teams-container{
         flex-direction: column;
     }
 }
