@@ -117,6 +117,34 @@ main{
     color: orange;
 }
 
+/* facts css */
+
+.card{
+border-radius: 8px;
+border: 1px solid orange;
+text-align: center;
+padding: 30px;
+}
+
+.facts-class-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.facts-class-container .card-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 5px;
+
+}
+
+.facts-class-container .card-stats{
+    font-size: 2.8rem;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 
 
 /* responsive media queries */
